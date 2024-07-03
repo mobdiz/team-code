@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { useBEM } from "./useBem";
+import { useBEM } from "./index";
 
 describe("useBEM function with default config", () => {
   it("should return a function", () => {
