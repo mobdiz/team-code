@@ -6,9 +6,10 @@
   "scripts": {
     "test": "vitest run",
     "test:run": "vitest",
-    "test:coverage": "vitest run --coverage",
+    "test:coverage": "vitest run --coverage.enabled --coverage.exclude=**/**/result/",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "start": "npx vite-node ./index.ts",
     "start:bem": "npx vite-node ./bem/index.ts",
     "prepare": "husky"
   },

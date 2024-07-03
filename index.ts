@@ -1,1 +1,1 @@
-(() => "Hello, World!")();
+import "./bem";
