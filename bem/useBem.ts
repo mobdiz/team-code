@@ -1,10 +1,7 @@
 import { BEMConfig } from "./types";
 import mergeConfigWithDefault from "./helpers";
 
-export default function useBEM(
-  blockName: string,
-  initConfig: Partial<BEMConfig> = {},
-) {
+export function useBEM(blockName: string, initConfig: Partial<BEMConfig> = {}) {
   const config = mergeConfigWithDefault(initConfig);
 
   console.log("useBEM", {

@@ -1,4 +1,4 @@
-import useBEM from "./useBem";
+import { useBEM } from "./useBem";
 
 const { b } = useBEM("block");
 
